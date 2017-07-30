@@ -1,0 +1,3 @@
+<h1>Pomodoro Clock</h1>
+<span *ngIf="minutes < 10">0</span><span>{{minutes}}</span>:<span *ngIf="seconds < 10">0</span><span>{{seconds}}</span>
+<button (click)="startCountDown()">Start</button>
